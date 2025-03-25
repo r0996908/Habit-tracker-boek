@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#navigatie {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 20px;
+}
+
+#navigatie h1 {
+  color: white;
+}
+
+.datum {
+  display: flex;
+  align-items: center;
+}
+
+.pijltje img {
+  width: 10%;
+}
+
+.knoppen .stats {
+  color: white;
+}
+
+.knoppen .stats a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  display: inline-block;
+  padding: 10px 70px 10px 70px;
+  border-radius: 10px;
+}
+
+.dagen .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dagen .buttons .update {
+  display: flex;
+  align-items: center;
+}
+
+.dagen .buttons .update img {
+  width: 10%;
+}
