@@ -8,6 +8,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   padding: 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 #navigatie h1 {
@@ -20,7 +21,7 @@ body {
 }
 
 .pijltje img {
-  width: 10%;
+  width: 20%;
 }
 
 .knoppen .stats {
@@ -33,30 +34,33 @@ body {
   font-weight: bolder;
   background-color: black;
   display: inline-block;
-  padding: 20px 30%;
+  padding: 20px 20%;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .dagen .buttons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  gap: 5%;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2%;
 }
 
 .dagen .buttons .mood {
   display: block;
   background-color: grey;
   border-radius: 10px;
+  grid-column: 3;
 }
 
 .dagen .buttons .update {
   display: flex;
+  text-align: center;
   align-items: center;
   border: 3px solid black;
   border-radius: 10px;
+  grid-column: 4 / span 3;
 }
 
 .dagen .buttons .update img {
-  width: 10%;
+  width: 30px;
 }
