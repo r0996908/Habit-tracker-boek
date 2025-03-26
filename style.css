@@ -24,10 +24,6 @@ body {
   width: 20%;
 }
 
-.kalender .dagen h3 {
-  grid-template-columns: repeat(7, 1fr);
-}
-
 .knoppen .stats {
   color: white;
 }
@@ -57,6 +53,7 @@ body {
 }
 
 .dagen .buttons .update {
+  padding-left: 10px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -67,4 +64,5 @@ body {
 
 .dagen .buttons .update img {
   width: 30px;
+  padding-right: 10px;
 }
