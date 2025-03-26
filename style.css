@@ -33,24 +33,28 @@ body {
   font-weight: bolder;
   background-color: black;
   display: inline-block;
-  padding: 10px 70px 10px 70px;
+  padding: 20px 30%;
   border-radius: 10px;
 }
 
 .dagen .buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 5%;
 }
 
 .dagen .buttons .mood {
-  display: inline;
+  display: block;
   background-color: grey;
+  border-radius: 10px;
 }
 
 .dagen .buttons .update {
   display: flex;
   align-items: center;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .dagen .buttons .update img {
