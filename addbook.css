@@ -14,3 +14,7 @@ body {
 #navigatie h1 {
   color: white;
 }
+
+.navigatietrack img {
+  width: 10%;
+}
