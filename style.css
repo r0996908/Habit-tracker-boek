@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  align-items: center;
   font-family: sans-serif;
 }
 
@@ -41,9 +42,15 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.dagen .buttons .mood {
+  display: inline;
+  background-color: grey;
+}
+
 .dagen .buttons .update {
   display: flex;
   align-items: center;
+  border: 1px solid black;
 }
 
 .dagen .buttons .update img {
