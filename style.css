@@ -25,7 +25,7 @@ body {
   font-weight: bolder;
   background-color: black;
   display: inline-block;
-  padding: 20px 20%;
+  padding: 20px 25%;
   border-radius: 10px;
   margin-bottom: 20px;
   font-size: 20px;
@@ -39,9 +39,13 @@ body {
 
 .dagen .buttons .mood {
   display: block;
-  background-color: grey;
+  background-color: rgb(0, 0, 0);
   border-radius: 10px;
   grid-column: 2;
+}
+
+.dagen .buttons .mood h3 {
+  font-size: 20px;
 }
 
 .dagen .buttons .update {
