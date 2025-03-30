@@ -16,12 +16,20 @@ body {
   font-size: 30px;
 }
 
+.dagen .Overzicht h2 {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
 .lijst {
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(176, 176, 176);
   height: 40vh;
   overflow: hidden scroll;
   border-radius: 20px;
-  margin: 30px;
+  margin: 0px 30px;
+  margin-top: 25px;
+  font-size: larger;
 }
 .knoppen .stats {
   color: white;
@@ -40,7 +48,7 @@ body {
 }
 
 .events {
-  margin-top: 170px;
+  margin-top: 70px;
 }
 
 .dagen .buttons {
