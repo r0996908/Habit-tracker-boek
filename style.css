@@ -63,6 +63,7 @@ body {
 }
 
 .dagen .buttons .update {
+  align-items: center;
   text-decoration: none;
   display: flex;
   color: black;
