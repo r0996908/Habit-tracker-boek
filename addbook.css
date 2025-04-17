@@ -23,6 +23,7 @@ body {
 
 .date {
   align-items: center;
+  margin-top: 50px;
 }
 .date #labeltext {
   font-size: 20px;
